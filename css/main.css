@@ -1,0 +1,134 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Heading */
+
+header {
+  height: 300px;
+  background: #ecfcff;
+}
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+header ul li {
+  list-style: none;
+  font-size: 18px;
+}
+
+header a {
+  text-decoration: none;
+  color: #3e64ff;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+header h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 60px;
+  color: #3e64ff;
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+header hr {
+  width: 50px;
+  position: relative;
+  left: 48%;
+  margin-top: -6px;
+  height: 3px;
+  background: #3e64ff;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Function Section */
+#function {
+  height: 200px;
+  display: flex;
+}
+#function .function-content1 {
+  background: #b2fcff;
+  color: #3e64ff;
+  flex: 2;
+}
+
+#function h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+#function p {
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#function .function-content2 {
+  flex: 1;
+  background: #ecfcff;
+  text-align: center;
+}
+
+/* #function .functionAside {
+} */
+
+/* Objects */
+
+#objects {
+  height: 200px;
+  display: flex;
+}
+
+.object-content1 {
+  flex: 1;
+  background: #b2fcff;
+  text-align: center;
+}
+
+.object-content2 {
+  background: #ecfcff;
+  color: #3e64ff;
+  flex: 2;
+}
+
+#objects h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+#objects p {
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Footer */
+footer {
+  height: 150px;
+  background: #3e64ff;
+}
+
+footer blockquote {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
