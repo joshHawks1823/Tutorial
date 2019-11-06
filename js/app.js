@@ -1,14 +1,3 @@
-function ShowMessage() {
-  alert("Hello World!");
+for (let i = 0; i <= 4; i++) {
+  console.log(i);
 }
-
-ShowMessage();
-
-var person = {
-  firstName: "James",
-  lastName: "Bond",
-  age: 15,
-  getFullName: function() {
-    return this.firstName + " " + this.lastName;
-  }
-};

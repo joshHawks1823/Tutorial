@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Tutorial Website</title>
     <link
       href="https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap"
       rel="stylesheet"
@@ -15,18 +15,18 @@
     <header>
       <nav>
         <ul>
-          <li><a href="">Functions</a></li>
-          <li><a href="">Objects</a></li>
-          <li><a href="">Arrays</a></li>
-          <li><a href="">Conditionals</a></li>
-          <li><a href="">For Loops</a></li>
+          <li><a href="#functions">Functions</a></li>
+          <li><a href="#objects">Objects</a></li>
+          <li><a href="#arrays">Arrays</a></li>
+          <li><a href="#conditionals">Conditionals</a></li>
+          <li><a href="#forLoops">For Loops</a></li>
         </ul>
       </nav>
       <h1>JavaScript</h1>
       <hr />
     </header>
     <section id="function">
-      <div class="function-content1">
+      <div class="function-content1 bounce">
         <h3>Functions</h3>
         <p>
           JavaScript provides functions similar to most of the scripting and
@@ -35,15 +35,15 @@
           you want. A JavaScript function can be defined using function keyword.
         </p>
       </div>
-      <div class="function-content2">
+      <div class="function-content2 bounce">
         <aside class="functionAside">
           <article>
-            <pre>
-function ShowMessage() {
-                alert("Hello World!");
-              }
-              
-              ShowMessage();</pre
+            <code
+              >function ShowMessage() { console.log("Hello World!"); } <br />
+              <br />
+              ShowMessage(); <br />
+              <br />
+              // Outputs Hello World!</code
             >
           </article>
         </aside>
@@ -52,24 +52,21 @@ function ShowMessage() {
 
     <!-- Object Section -->
     <section id="objects">
-      <div class="object-content1">
+      <div class="object-content1 bounce">
         <aside class="objectAside">
           <article>
-            <pre>
-            var person = {
-                    firstName: "James",
-                  lastName: "Bond",
-                    age: 15,
-                    getFullName: function() {
-                    return this.firstName + " " + this.lastName;
-                  }
-                };
-                
-            </pre>
+            <code>
+              let user = { name: "John", age: 30, }
+              <br />
+              <br />
+              console.log(user.name) <br />
+              <br />
+              // Outputs John
+            </code>
           </article>
         </aside>
       </div>
-      <div class="object-content2">
+      <div class="object-content2 bounce">
         <h3>Objects</h3>
         <p>
           Objects are a non-primitive data type in JavaScript. It is like any
@@ -81,97 +78,101 @@ function ShowMessage() {
     </section>
 
     <!-- Arrays Section -->
-    <section id="function">
-      <div class="function-content1">
-        <h3>Functions</h3>
+    <section id="arrays">
+      <div class="arrays-content1 bounce">
+        <h3>Arrays</h3>
         <p>
-          JavaScript provides functions similar to most of the scripting and
-          programming languages. In JavaScript, a function allows you to define
-          a block of code, give it a name and then execute it as many times as
-          you want. A JavaScript function can be defined using function keyword.
+          The Array object lets you store multiple values in a single variable.
+          It stores a fixed-size sequential collection of elements of the same
+          type. An array is used to store a collection of data, but it is often
+          more useful to think of an array as a collection of variables of the
+          same type.
         </p>
       </div>
-      <div class="function-content2">
-        <aside class="functionAside">
+      <div class="arrays-content2 bounce">
+        <aside class="arraysAside">
           <article>
-            <pre>
-  function ShowMessage() {
-                  alert("Hello World!");
-                }
-                
-                ShowMessage();</pre
-            >
+            <code>
+              var fruits = ["apple","orange","mango"];
+              <br /><br />
+              console.log(fruits[0]);
+              <br />
+              <br />
+              // Outputs apple
+            </code>
           </article>
         </aside>
       </div>
     </section>
 
     <!-- Conditionals Section -->
-    <section id="objects">
-      <div class="object-content1">
-        <aside class="objectAside">
+    <section id="conditionals">
+      <div class="conditionals-content1 bounce">
+        <aside class="conditionalsAside">
           <article>
-            <pre>
-              var person = {
-                      firstName: "James",
-                    lastName: "Bond",
-                      age: 15,
-                      getFullName: function() {
-                      return this.firstName + " " + this.lastName;
-                    }
-                  };
-                  
-              </pre
-            >
+            <code>
+              var person = 33; <br />
+              if (person >= 18) { <br />
+              console.log("Adult") <br />
+              } else { <br />
+              console.log("Teen"); }
+              <br />
+              <br />
+              // Outputs Adult
+            </code>
           </article>
         </aside>
       </div>
-      <div class="object-content2">
-        <h3>Objects</h3>
+      <div class="conditionals-content2 bounce">
+        <h3>Conditionals</h3>
         <p>
-          Objects are a non-primitive data type in JavaScript. It is like any
-          other variable, the only difference is that an object holds multiple
-          values in terms of properties and methods. Properties can hold values
-          of primitive data types and methods are functions.
+          Conditionals control behavior in JavaScript and determine whether or
+          not pieces of code can run. if The most common type of conditional is
+          the if statement, which only runs if the condition enclosed in
+          parentheses () is true.
         </p>
       </div>
     </section>
 
     <!-- For Loops Section -->
-    <section id="function">
-      <div class="function-content1">
-        <h3>Functions</h3>
+    <section id="forLoops">
+      <div class="forLoops-content1 bounce">
+        <h3>For Loops</h3>
         <p>
-          JavaScript provides functions similar to most of the scripting and
-          programming languages. In JavaScript, a function allows you to define
-          a block of code, give it a name and then execute it as many times as
-          you want. A JavaScript function can be defined using function keyword.
+          The for statement creates a loop that consists of three optional
+          expressions, enclosed in parentheses and separated by semicolons,
+          followed by a statement (usually a block statement) to be executed in
+          the loop.
         </p>
       </div>
-      <div class="function-content2">
-        <aside class="functionAside">
+      <div class="forLoops-content2 bounce">
+        <aside class="ForLoopsAside">
           <article>
-            <pre>
-  function ShowMessage() {
-                  alert("Hello World!");
-                }
-                
-                ShowMessage();</pre
-            >
+            <code>
+              for (let i = 0; i &lt;= 4; i++) { <br />
+              console.log(i); <br />
+              } <br />
+              <br />
+              // Outputs 0 1 2 3 4
+            </code>
           </article>
         </aside>
       </div>
     </section>
-
-    <!-- Quote Section -->
-    <section id="quote-section">
-      <div class="quote-section1"></div>
-      <div class="quote-section2"></div>
-    </section>
-
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+      <h3>Further Learning:</h3>
+      <ul>
+        <li><a href="http://www.udacity.com" target="_blank">Udacity</a></li>
+        <li>
+          <a href="https://developer.mozilla.org/en-US/" target="_blank"
+            >MDN Docs</a
+          >
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/" target="_blank">W3 Schools</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
-
-<!-- Testing Git -->
